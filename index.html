@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./main.css" /> -->
+    <!-- MINIFY CSS -->
+    <link rel="stylesheet" href="./main-minify.css">
+    <title>Exam</title>
+  </head>
+  <body>
+    <header class="site__header">
+      <div class="container">
+        <nav class="site__navbar">
+          <ul class="site__list">
+            <li class="site__header__item">
+              <a class="site__logo title-color" href="#">Brit</a
+              ><span class="site__span">lex</span>
+            </li>
+            <li class="site__links dp__none">
+              <a class="site__link" href="#">Home </a>
+              <a class="site__link" href="#">Skills</a>
+              <a class="site__link" href="#">About Us </a>
+              <a class="site__link" href="#">Pricing</a>
+              <a class="site__link" href="#"> Contacts</a>
+            </li>
+            <li class="menu">
+              <a class="site__link site__link2" href="#">Home </a>
+              <a class="site__link site__link2" href="#">Skills</a>
+              <a class="site__link site__link2" href="#">About Us </a>
+              <a class="site__link site__link2" href="#">Pricing</a>
+              <a class="site__link site__link2" href="#"> Contacts</a>
+            </li>
+            <li class="site__btn1 dp__none">
+              <button class="site__btn">Let’s Talk</button>
+            </li>
+            <div class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="learning__section">
+        <div class="container">
+          <div class="learning__box">
+            <div class="learning__texts">
+              <div class="learning-box2">
+                <h1 class="learning__title title-color">
+                  Learn Any Foreign Language
+                </h1>
+                <img
+                  class="learning__lamp__img"
+                  src="./img/lamp.png"
+                  alt="lamp"
+                />
+              </div>
+              <p class="learning__text">
+                With our teachers who write a program for each student, you will
+                be able to make your first sketch after the first lesson.
+              </p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg learning__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#modalId"
+              >
+                Get started
+              </button>
+              <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalTitleId">Get started</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input required
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                            placeholder="Enter email"
+                          />
+                          <small id="emailHelp" class="form-text text-muted"
+                            >We'll never share your email with anyone
+                            else.</small
+                          >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input required
+                            type="password"
+                            class="form-control"
+                            id="exampleInputPassword1"
+                            placeholder="Password"
+                          />
+                        </div>
+                        <div class="form-check">
+                          <input required
+                            type="checkbox"
+                            class="form-check-input"
+                            id="exampleCheck1"
+                          />
+                          <label class="form-check-label" for="exampleCheck1"
+                            >Check me out</label
+                          >
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="./img/Learning-table.png"
+              />
+              <img src="./img/Learning-desk.png" alt="learning__img" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="skills__section">
+        <div class="container">
+          <h3 class="skills__title title-color">Skills</h3>
+        </div>
+        <div class="container">
+          <div class="skill__boxs">
+            <div class="speaking__card">
+              <img
+                class="speaking__img"
+                src="./img/speaking.png"
+                alt="speaking"
+              />
+              <h4 class="speaking__tilte title-color">Speaking</h4>
+              <div class="speaking__texts">
+                <p class="speaking__text">
+                  Improve your English skills and confidence. Live classes and
+                  interactive lessons online. 20% extra free for a limited time
+                  only
+                </p>
+              </div>
+              <div class="speaking__texts">
+                <p class="speaking__text">
+                  Learn English online and improve your skills through our
+                  high-quality courses and resources – all designed for adult
+                  language learners.
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg learning__btn learn-more__btn"
+                data-bs-toggle="modal"
+                data-bs-target="#modalId"
+              >
+                Learn more
+              </button>
+            </div>
+            <div class="skills__box">
+              <div class="writing__card">
+                <img
+                  class="writing__img"
+                  src="./img/writing.png"
+                  alt="speaking"
+                />
+                <h4 class="speaking__tilte title-color">Writing</h4>
+                <div class="speaking__texts">
+                  <p class="speaking__text">
+                    One of the most important and extensive areas of natural
+                    science, the science that studies substances, also their
+                    composition
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-lg learning__btn learn-more__btn learn-more__btn2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalId"
+                >
+                  Learn more
+                </button>
+              </div>
+              <div class="reading__card">
+                <img
+                  class="reading__img"
+                  src="./img/reading.png"
+                  alt="writing"
+                />
+                <h4 class="speaking__tilte title-color">Reading</h4>
+                <div class="speaking__texts">
+                  <p class="speaking__text">
+                    perception and response actions of the user resulting from
+                    the use and/or upcoming use of the product, system or
+                    service
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-lg learning__btn learn-more__btn learn-more__btn2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalId"
+                >
+                  Learn more
+                </button>
+              </div>
+              <div class="listening__card">
+                <div class="listining__box">
+                  <div class="listening__texts">
+                    <h4 class="speaking__tilte title-color">Listening</h4>
+                    <div class="speaking__texts">
+                      <p class="speaking__text">
+                        Here you can find activities to practise your listening
+                        skills. Listening will help you to improve your
+                        understanding service
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-dark btn-lg learning__btn learn-more__btn learn-more__btn2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalId"
+                      >
+                        Learn more
+                      </button>
+                    </div>
+                  </div>
+                  <img
+                    class="listining__img"
+                    src="./img/listening.png"
+                    alt="listening"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="container">
+          <div class="about__box">
+            <h5 class="about__title title-color">About Us</h5>
+            <img class="about__img" src="./img/dollar.png" alt="about-us" />
+            <div class="about__texts">
+              <p>
+                The model offers a framework for discussing problems related to
+                the user's experience, as well as possible ways and means of
+                solving them. Application development begins at the top level
+                (strategy), where the future software product is described quite
+                abstractly from the point of view of the expectations of both
+                users and the customer.
+              </p>
+              <ul class="about__list">
+                <li class="about__item">
+                  <h6 class="about__item__title title-color">800</h6>
+                  <p class="about__item__text">Pupils</p>
+                </li>
+                <li class="about__item">
+                  <h6 class="about__item__title title-color">18</h6>
+                  <p class="about__item__text">Teachers</p>
+                </li>
+                <li class="about__item">
+                  <h6 class="about__item__title title-color">6</h6>
+                  <p class="about__item__text">Foreign languages</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <h6 class="title-color procong__title">Pricing</h6>
+        </div>
+        <div class="pricing__box">
+          <div class="pricing__card">
+            <img class="pricing__img" src="./img/study.png" alt="study" />
+            <h6 class="title-color pricing__card__title">
+              Self-study online course
+            </h6>
+            <p class="pricing__text">
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <button id="price" onclick="price()" class="prixing__btn">
+              <span id="span__btnga" class="button__span"> £5.99</span> per
+              month
+            </button>
+          </div>
+          <div class="pricing__card">
+            <img
+              class="pricing__img pricing__img2"
+              src="./img/live.png"
+              alt="study"
+            />
+            <h6 class="title-color pricing__card__title">
+              Live online classes
+            </h6>
+            <p class="pricing__text">
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <button onclick="price_2()" id="price2" class="prixing__btn prixing__btn2">
+              <span class="button__span"> £12.99</span> per month
+            </button>
+          </div>
+          <div class="pricing__card">
+            <img
+              class="pricing__img pricing__img3"
+              src="./img/personal.png"
+              alt="study"
+            />
+            <h6 class="title-color pricing__card__title">Personal Tuition</h6>
+            <p class="pricing__text">
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <button onclick="price_3()" id="price3" class="prixing__btn">
+              <span class="button__span">£20.99</span> per month
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="contact__us">
+        <div class="container">
+          <div class="contact__box">
+            <h6 class="contact__us__title title-color">Contact Us</h6>
+            <img
+              class="contact__us__img"
+              src="./img/about-us.png"
+              alt="contact__us"
+            />
+            <div class="conact__us__form">
+              <p class="contact__us-text">
+                Discover your current English level by taking our free online
+                English test.Sign up to our newsletter for learning tips and
+                free resources
+              </p>
+              <form onsubmit="submitga(event)" id="cantact__form" class="contact__form">
+                <input
+                  required
+                  class="contact__input"
+                  type="email"
+                  id="contact-input"
+                  name="email"
+                />
+                <button type="submit" class="contact__btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site__footer">
+      <div class="container">
+        <div class="footer__box">
+          <div class="footer__logo">
+            <a class="site__logo title-color" href="#">Brit</a
+            ><span class="site__span">lex</span>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#"> Terms and Conditions </a>
+            </li>
+            <li class="footer__item">
+              <ul class="footer__list2">
+                <li class="footer__item">
+                  <a class="footer__link" href="#">Privacy Policy </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#">Cookie Policy </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
